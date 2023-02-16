@@ -10,22 +10,20 @@ import SwiftyDropbox
 
 import Harmony
 
-extension FileProperties.PropertyGroup
-{
+extension FileProperties.PropertyGroup {
     var metadata: [HarmonyMetadataKey: String] {
         let metadata = self.fields.reduce(into: [:]) { $0[HarmonyMetadataKey($1.name)] = $1.value }
         return metadata
     }
-    
-    convenience init<T>(templateID: String, metadata: [HarmonyMetadataKey: T])
-    {
-        let propertyFields = metadata.compactMap { (key, value) -> FileProperties.PropertyField? in
+
+    convenience init<T>(templateID: String, metadata: [HarmonyMetadataKey: T]) {
+        let propertyFields = metadata.compactMap { key, value -> FileProperties.PropertyField? in
             guard let value = value as? String else { return nil }
-            
+
             let propertyField = FileProperties.PropertyField(name: key, value: value)
             return propertyField
         }
-        
+
         self.init(templateId: templateID, fields: propertyFields)
     }
 }

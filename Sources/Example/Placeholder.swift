@@ -2,8 +2,8 @@
 //  Placeholder.swift
 //  HarmonyTests
 //
-//  Created by Joseph Mattiello on 1/11/18.
-//  Copyright © 2023 Joseph Mattiello. All rights reserved.
+//  Created by Riley Testut on 1/11/18.
+//  Copyright © 2018 Riley Testut. All rights reserved.
 //
 
 import CoreData

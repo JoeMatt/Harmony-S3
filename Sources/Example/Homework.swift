@@ -2,8 +2,8 @@
 //  Homework.swift
 //  HarmonyTests
 //
-//  Created by Joseph Mattiello on 10/21/17.
-//  Copyright © 2023 Joseph Mattiello. All rights reserved.
+//  Created by Riley Testut on 10/21/17.
+//  Copyright © 2017 Riley Testut. All rights reserved.
 //
 
 import CoreData
