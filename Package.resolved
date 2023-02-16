@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JoeMatt/Harmony.git",
       "state" : {
-        "revision" : "32cd550bfd7faea6b9d4a91d04dabd17386dcb1d",
-        "version" : "1.1.1"
+        "revision" : "7b19f6ac602f57165446d5e0ca5701cc355e8f4e",
+        "version" : "1.2.4"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/JoeMatt/Roxas.git",
       "state" : {
-        "revision" : "902171c1ddaa1b49294b3899d7230ef7c3a1c5ea",
-        "version" : "1.1.1"
+        "revision" : "f42626c3b6ac433481a546cb0b6733b90e40991b",
+        "version" : "1.2.0"
       }
     },
     {
@@ -52,6 +52,15 @@
       "state" : {
         "revision" : "cf1c872126e4874144ed2f91aa2124e72388abe0",
         "version" : "6.4.1"
+      }
+    },
+    {
+      "identity" : "soto-s3-file-transfer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/soto-project/soto-s3-file-transfer",
+      "state" : {
+        "revision" : "78d655d4f811026dce90f065d5aa88946d7a1b1e",
+        "version" : "1.2.0"
       }
     },
     {
@@ -113,8 +122,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio-http2.git",
       "state" : {
-        "revision" : "22757ac305f3d44d2b99ba541193ff1d64e77d00",
-        "version" : "1.24.1"
+        "revision" : "8dcda6828844022028025241e4e7d52cbbe250de",
+        "version" : "1.25.0"
       }
     },
     {
